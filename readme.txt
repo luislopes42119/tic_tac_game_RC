@@ -5,7 +5,7 @@ Luis Miguel Lopes nº 42119
 
     |--src
         |--cliente
-            |--client.c
+            |--cliente.c
         |--servidor
             |--server.c
         |--readme.txt
@@ -17,7 +17,7 @@ Luis Miguel Lopes nº 42119
         myterminal:$ ./server
 
     Cliente:
-        myterminal:$ gcc client.c –o client  
+        myterminal:$ gcc cliente.c –o client  
         myterminal:$ ./client
 
     Primeiro compilar e executar o servidor, e depois fazer o mesmo com o cliente.
