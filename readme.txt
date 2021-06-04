@@ -13,12 +13,12 @@ Luis Miguel Lopes nº 42119
 2 - Como compilar
 
     Servidor:
-        myterminal:$ cc server.c 
-        myterminal:$ ./a.out 
+        myterminal:$ gcc server.c –o server 
+        myterminal:$ ./server
 
     Cliente:
-        myterminal:$ cc client.c 
-        myterminal:$ ./a.out 
+        myterminal:$ gcc client.c –o client  
+        myterminal:$ ./client
 
     Primeiro compilar e executar o servidor, e depois fazer o mesmo com o cliente.
 
